@@ -54,3 +54,20 @@ a {
 .buttonStyle:hover{
   background: grey;
 }
+
+#headNotes{
+  width: 100%;
+  padding-bottom:2em;
+  border-bottom: solid 1px;
+}
+
+.input-wrapper{
+  width:50%;
+  display:flex;
+  margin-top:1em;
+  flex-direction:column;
+  justify-content:space-around;
+}
+.input-wrapper #notetitle{
+  height:2em;
+}

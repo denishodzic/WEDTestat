@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 <body>
-<h1 id="createnotes">Create Note</h1>
+<h1 id="headNotes">Create Note</h1>
     <form>
         <div class="input-wrapper">
             <input type="text" id="noteTitle" placeholder="Title" required>
         </div>
         <div class="input-wrapper">
-            <textarea placeholder="Beschreibung" name="message" rows="10" cols="30" required>
+            <textarea id="noteDescription" placeholder="Beschreibung" name="message" rows="10" cols="30" required>
             </textarea>
         </div>
         <div class="input-wrapper">
@@ -28,7 +28,9 @@
         <div class="input-wrapper">
             <input type="date" id="noteDate" value="01.01.2016" required>
         </div>
-        <input type="checkbox">Erledigt!
+        <div class="input-wrapper">
+            <input type="checkbox"/>Erledigt!
+        </div>
     </form>
 </body>
 </html>
