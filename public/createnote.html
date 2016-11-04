@@ -14,13 +14,12 @@
 </head>
 <body>
 <h1 id="headNotes">Create Note</h1>
-    <form>
+    <form id="postNoteForm">
         <div class="input-wrapper">
             <input type="text" id="noteTitle" placeholder="Title" required>
         </div>
         <div class="input-wrapper">
-            <textarea id="noteDescription" placeholder="Beschreibung" name="message" rows="10" cols="30" required>
-            </textarea>
+            <textarea id="noteDescription" placeholder="Beschreibung" required></textarea>
         </div>
         <div class="input-wrapper">
             <input id="noteImportance" placeholder="Wichtigkeit" type="number" name="quantity" min="1" max="5" required>
@@ -29,7 +28,7 @@
             <input type="date" id="noteDate" value="01.01.2016" required>
         </div>
         <div class="input-wrapper">
-            <input type="checkbox"/>Erledigt!
+            <div class="checkboxStyle"><input type="checkbox"/>Erledigt!</div>
         </div>
     </form>
 </body>

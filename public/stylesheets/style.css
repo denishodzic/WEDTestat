@@ -62,7 +62,7 @@ a {
 }
 
 .input-wrapper{
-  width:50%;
+  color:black;
   display:flex;
   margin-top:1em;
   flex-direction:column;
@@ -70,4 +70,13 @@ a {
 }
 .input-wrapper #notetitle{
   height:2em;
+}
+.checkboxStyle{
+  display:inline-block;
+}
+
+#postNoteForm{
+  position:absolute;
+  width:50%;
+  left:25%;
 }
