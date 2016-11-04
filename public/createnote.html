@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Create Notes</title>
+
+    <script src="libs/jquery-2.1.4.js"></script>
+    <script src="libs/handlebars-v4.0.5.js"></script>
+    <script src="libs/moment.js"></script>
+
+    <script src="scripts/handlebars-helpers.js"></script>
+    <script src="javascripts/index.js"></script>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 <body>
-<h2>Hallo</h2>
+<h1 id="createnotes">Create Note</h1>
+    <form>
+        <div class="input-wrapper">
+            <input type="text" id="noteTitle" placeholder="Title" required>
+        </div>
+        <div class="input-wrapper">
+            <textarea placeholder="Beschreibung" name="message" rows="10" cols="30" required>
+            </textarea>
+        </div>
+        <div class="input-wrapper">
+            <input id="noteImportance" placeholder="Wichtigkeit" type="number" name="quantity" min="1" max="5" required>
+        </div>
+        <div class="input-wrapper">
+            <input type="date" id="noteDate" value="01.01.2016" required>
+        </div>
+        <input type="checkbox">Erledigt!
+    </form>
 </body>
 </html>
