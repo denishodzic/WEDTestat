@@ -6,3 +6,51 @@ body {
 a {
   color: #00B7FF;
 }
+
+#topHeader{
+  margin-bottom: 1em;
+}
+
+#selectStyle{
+  display: inline;
+  position: absolute;
+  right: 10px;
+}
+
+#createNote{
+  display: inline;
+  position: relative;
+}
+#sort{
+
+}
+#sortFinishDate{
+  display: inline;
+  position: relative;
+}
+#sortCreateDate{
+  display: inline;
+  position: relative;
+}
+#sortImportance{
+  display: inline;
+  position: relative;
+}
+#hideFinished{
+  display: inline;
+  position: absolute;
+  right: 10px;
+}
+
+.buttonStyle{
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  width: 150px;
+  background: black;
+  height: 50px;
+  color: white;
+}
+.buttonStyle:hover{
+  background: grey;
+}
